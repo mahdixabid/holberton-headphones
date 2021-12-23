@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(42, 43, 46);
+}
+
+header {
+    background-image: url(/images/headphones_hero_1.jpg);
+    background-position: center;
+    background-attachment: cover;
+    height: 800px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 27px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.box {
+    padding: 372px 381px 115px 382px;
+}
+
+.p1 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p2 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn1 {
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+.btn1 button {
+    width: 162px;
+    height: 44px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF6565;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 22px;
+    border: 0;
+}
+
+.p3 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.bar1 {
+    width: 18px;
+    height: 2px;
+    background-color: #F2F2F2;
+    margin: 4px 0;
+    transition: 0.4s;
+    border-radius: 2px;
+}
+
+.bar2 {
+    width: 13px;
+    height: 2px;
+    background-color: #F2F2F2;
+    margin: 4px 0;
+    transition: 0.4s;
+    border-radius: 2px;
+}
+
+.bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: #F2F2F2;
+    margin: 4px 0;
+    transition: 0.4s;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:600px) {
+    header {
+        height: 869px;
+        background-size: cover;
+        background-position-x: -389px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hamburger-icon {
+        display: block;
+        position: relative;
+        top: 7px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .box {
+        padding: 227px 0 0 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .logo img {
+        width: 160px;
+        height: 32px;
+        position: absolute;
+        left: 30%;
+    }
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.hamburger-icon:hover .mobile-menu {
+    display: block;
+}
+
+.mobile-menu {
+    display: none;
+    position: relative;
+    left: 100%;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+}
