@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+li {
+    font-family: Source Sans Pro;
+    font-weight: 700;
+}
+
 .Top {
     background-image: url(/images/headphones_hero_1.jpg);
     background-position: center;
