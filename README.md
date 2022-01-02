@@ -21,4 +21,4 @@ Here the final result:
 I am MAHDi ABiD and I'm web developer, with knowledge and experience, working in web technologies, delivering quality work. I'm passionate about creating and developing web interfaces.
 
 ## :mag: Where can you find me?
-[mahdixabid.tech](http://mahdixabid.tech "mahdixabid.tech")
+[mahdixabid.tech](http://mahdixabid.tech/#contact "mahdixabid.tech")
